@@ -1,0 +1,35 @@
+.container { /*Обращаемся к классу из html файла через точку*/
+    background-color: rgb(150, 150, 150); /* Это свойство позволяет установить цвет фона */
+    text-align: center; /* Это свойство позволяет выравнить текст по горизонтали */
+    position: relative;
+}
+
+.img {
+    width: 1000px; /* Это свойство, позволяющее задать ширину  */
+}
+
+
+.button {
+    margin: 10px; /* Это свойство, позволяющее задать пространство за рамками */
+    padding:10px; /* Это свойство, позволяющее изменить внутренние отступы от границ элемента */
+    border:none; /* Это свойство, позволяющее изменять границы */
+    
+}
+
+.buttonhome {
+    text-decoration: none;
+    color: white;
+    background-color: #4f5350;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+
+.buttonhome:hover {
+    background-color: rgb(134, 134, 134);
+    transition: 0.7s;
+}
+
+
